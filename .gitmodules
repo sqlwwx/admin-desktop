@@ -1,0 +1,3 @@
+[submodule "src/renderer/modules/vue-wwx"]
+	path = src/renderer/modules/vue-wwx
+	url = https://github.com/sqlwwx/vue-wwx.git
