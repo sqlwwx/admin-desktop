@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import './api'
-import router from './router'
+import Router from './router'
 import store from './store'
 
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
@@ -12,6 +12,7 @@ export const init = () => {
 }
 
 export const setup = () => {
+  let router = Router()
   return Promise.resolve({
     store, router
   })
